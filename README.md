@@ -6,7 +6,6 @@
   <img src="https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React 18" />
   <img src="https://img.shields.io/badge/Vite-Fast%20Builds-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
   <img src="https://img.shields.io/badge/CSS-Responsive-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" />
-  <img src="https://img.shields.io/badge/Backend-Not%20Required-2EA44F?style=for-the-badge" alt="No backend required" />
 </p>
 
 <p align="center">
@@ -70,56 +69,3 @@ Campus-Pulse/
 ├── vite.config.js
 └── README.md
 ```
-
-## ⚙️ Getting Started
-
-### Prerequisites
-
-Make sure you have the following installed:
-
-- [Node.js](https://nodejs.org/)
-- npm (included with Node.js)
-- Git (optional, for cloning the repository)
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/YOUR-USERNAME/Campus-Pulse.git
-cd Campus-Pulse
-```
-
-Replace `YOUR-USERNAME` with your GitHub username and adjust the repository name if necessary.
-
-### 2. Install dependencies
-
-```bash
-npm install
-```
-
-### 3. Start the development server
-
-```bash
-npm run dev
-```
-
-Open the local URL displayed in your terminal to explore Campus Pulse.
-
-## 📦 Production Build
-
-Create an optimized production build:
-
-```bash
-npm run build
-```
-
-Preview the production build locally:
-
-```bash
-npm run preview
-```
-
-The generated production files will be available in the `dist/` directory.
-
-## 🌐 Deployment
-
-Campus Pulse can
