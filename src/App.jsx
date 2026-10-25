@@ -157,7 +157,7 @@ export default function App() {
 
       <footer>
         <div className="wrap">
-          Campus Pulse is a frontend demo with sample events. Bookmarks and registrations are stored in your browser.
+          Campus Pulse is Your Event Planner ✅
         </div>
       </footer>
 
