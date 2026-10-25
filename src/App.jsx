@@ -7,16 +7,15 @@ import { CATEGORIES, readStorage, writeStorage } from "./utils.js";
 const toggleId = (list, id) => (list.includes(id) ? list.filter((x) => x !== id) : [...list, id]);
 
 export default function App() {
-  const [events, setEvents] = useState(null); // null = loading
+  const [events, setEvents] = useState(null); 
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState("All");
   const [onlySaved, setOnlySaved] = useState(false);
   const [saved, setSaved] = useState(() => readStorage("cp:saved", []));
   const [registered, setRegistered] = useState(() => readStorage("cp:registered", []));
-  const [theme, setTheme] = useState(() => readStorage("cp:theme", null)); // "light" | "dark" | null
+  const [theme, setTheme] = useState(() => readStorage("cp:theme", null)); 
   const [selected, setSelected] = useState(null);
 
-  // Simulate loading the events from an API
   useEffect(() => {
     const t = setTimeout(() => {
       setEvents([...rawEvents].sort((a, b) => a.date.localeCompare(b.date)));
@@ -70,7 +69,7 @@ export default function App() {
     <>
       <header className="nav">
         <div className="wrap nav-inner">
-          <div className="logo"><i /> Campus Pulse</div>
+          <div className="logo"><i /> Nexus Campus</div>
           <button
             className="icon-btn"
             aria-pressed={onlySaved}
@@ -157,7 +156,7 @@ export default function App() {
 
       <footer>
         <div className="wrap">
-          Campus Pulse is Your Event Planner ✅
+          Nexus Campus is Your Event Planner ✅
         </div>
       </footer>
 
