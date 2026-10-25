@@ -1,4 +1,4 @@
-# 🎓 Campus Pulse
+# 🎓 Nexus Campus
 
 ### Your Campus. Your Events. Your Pulse.
 
@@ -16,7 +16,7 @@
 
 ## ✨ Overview
 
-**Campus Pulse** is a responsive, frontend-only college event discovery platform designed to keep students connected with everything happening on campus.
+**Nexus Campus** is a responsive, frontend-only college event discovery platform designed to keep students connected with everything happening on campus.
 
 From exciting technical fests and hackathons to cultural celebrations and workshops, Campus Pulse makes it easy to discover upcoming events, explore event details, and save your favourites — all through a clean, modern interface.
 
@@ -53,7 +53,7 @@ No backend. No complicated setup. Just a seamless campus experience.
 ## 📂 Project Structure
 
 ```text
-Campus-Pulse/
+Nexus-Campus/
 ├── public/
 ├── src/
 │   ├── components/
